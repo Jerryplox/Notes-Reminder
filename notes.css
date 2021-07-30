@@ -1,0 +1,34 @@
+*{
+    font-family: 'Baloo Bhai 2','Trebuchet MS',  cursive;
+}
+
+body{   
+background-color: #000000;
+background-image: linear-gradient(to right, #ffffff, #c1c2c4, #86898b, #4e5555, #1e2523);
+}
+
+#your-note{
+    margin-top: 30px;
+
+}
+.logo i{
+    color: white;
+    font-size: 2rem;
+    animation: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+@keyframes logo {
+    from{
+       transform: rotate(deg);
+
+    }
+    to{
+        transform: rotate(360deg)
+
+    }
+    
+}
+
